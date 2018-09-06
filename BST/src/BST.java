@@ -33,7 +33,7 @@ public class BST<E extends Comparable> {
 	
 	public void add(E e) {
 		
-		root =add(root, e);
+		root = add(root, e);
 		
 	}
 		
@@ -122,7 +122,7 @@ public class BST<E extends Comparable> {
 	}
 	
 	public void deleteNode(E e) {
-		
+		root = deleteNode(node, e);
 	}
 	
 	private Node deleteNode(Node node, E e) {
