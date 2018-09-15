@@ -5,7 +5,6 @@ public class Student {
 	private int id;
 	private String name;
 	
-	private static final int M = 20;
 	private static final int B = 31;
 	
 	
